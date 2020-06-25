@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
 
-function App() {
+// components
+import Title from "./components/Title";
+import Count from "./components/Count";
+import Button from "./components/Button";
+
+export default function App() {
+  const [age, setAge] = useState(1);
+  const [salary, setSalary] = useState(1000);
+
+  const incrementAge = () => {
+    setAge(age + 1);
+  };
+
+  const incrementSalary = () => {
+    setSalary(salary + 1000);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title />
+      <Count text="Age" count={age} />
+      <Button onClick={incrementAge}>Increment Age</Button>
+      <br /> <br />
+      <Count text="Salary" count={salary} />
+      <Button onClick={incrementSalary}>Increment Salary</Button>
     </div>
   );
 }
-
-export default App;
