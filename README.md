@@ -1,4 +1,4 @@
-# This is test interview how to optimize prevent re-rendering component
+# Test interview how to optimize prevent re-render component
 
 ## Scripts
 
@@ -15,6 +15,11 @@ $ npm start
 ### First load apps. It will render all components
 
 ![first-load](./first-load.png)
+
+## Action
+
+- Click "Increment Age" button -> age + 1
+- Click "Increment Salary" button -> salary + 1000
 
 ## Requirement
 
