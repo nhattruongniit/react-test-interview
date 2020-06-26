@@ -34,3 +34,8 @@ The result same when user click "Increment Salary" button.
 ## Note
 
 You can't create new any component or move the position of components. You can only change code in that components.
+
+
+## Result
+
+![react-test-optimize](./react-test-optimize.gif)
