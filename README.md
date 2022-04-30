@@ -1,4 +1,12 @@
-# Test interview how to optimize prevent re-render component
+# REACT TEST INTERVIEW
+
+## How to optimize prevent re-render component
+
+[README](./src/test01/README_test01.md)
+
+## How to skip first render component
+
+[README](./src/test02/README_test02.md)
 
 ## Scripts
 
@@ -7,40 +15,3 @@ $ npm install
 
 $ npm start
 ```
-
-## App screen
-
-![app-screen](./app-screen.png)
-
-### First load apps. It will render all components
-
-![first-load](./first-load.png)
-
-## Action
-
-- Click "Increment Age" button -> age + 1
-- Click "Increment Salary" button -> salary + 1000
-
-## Requirement
-
-How to user click "Increment Age" button, it just re-render 'Age - x' component?. It will look like the result below.
-
-![age](./age.png)
-
-The result same when user click "Increment Salary" button.
-
-![salary](./salary.png)
-
-## Note
-
-- You can't create new any component or move the position of components. 
-
-- You can only change code in that components.
-
-
-## Result
-
-![react-test-optimize](./react-test-optimize.gif)
-- You can use function or class component.
-
-- You can't create new any component or move the position of components. You can only change code in that components.
