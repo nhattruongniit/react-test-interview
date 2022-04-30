@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function Test02() {
+  
+  // code something here ...
 
   return (
     <div className="App">
