@@ -1,8 +1,9 @@
 import React from "react";
 
-import Test01 from "./test01/Test01";
-import Test02 from "./test02/Test02";
-import Test03 from "./test03/Test03";
+import Test01 from "./prevent-render-component/Test01";
+import Test02 from "./skip-first-render/Test02";
+import Test03 from "./infinite-scroll/Test03";
+import Accordion from "./Accordion/Accordion";
 
 export default function App() {
   return (
@@ -14,6 +15,9 @@ export default function App() {
       <Test02 />
       <br />
       <Test03 />
+
+      <br />
+      <Accordion />
     </div>
   );
 }

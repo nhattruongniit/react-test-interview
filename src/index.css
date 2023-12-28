@@ -25,3 +25,41 @@ code {
 .card {
   margin-bottom: 12px;
 }
+
+
+/* start accordion */
+.accordionItemFluent {
+  position: relative;
+}
+
+.accordionItemFluent-header {
+  overflow: visible;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 2.5rem;
+  padding: 0.625rem 1rem;
+  margin: 0;
+  color: #161616;
+  cursor: pointer;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.accordionItemFluent-header h3 {
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: .16px;
+  z-index: 1;
+  width: 100%;
+  text-align: left;
+}
+
+.accordionItemFluent-panel {
+  padding: 10px 20px;
+}
+
+/* end accordion */
