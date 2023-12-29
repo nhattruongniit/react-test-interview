@@ -5,6 +5,7 @@ import SelectLanguages from './components/SelectLanguages';
 function ImperativeHandle() {
   const [name, setName] = useState('');
 
+  console.log('ImperativeHandle render')
   return (
     <div>
       <h1>ImperativeHandle</h1>
