@@ -42,7 +42,6 @@ code {
   justify-content: space-between;
   width: 100%;
   min-height: 2.5rem;
-  padding: 0.625rem 1rem;
   margin: 0;
   color: #161616;
   cursor: pointer;
@@ -59,6 +58,8 @@ code {
   width: 100%;
   text-align: left;
   margin: 0;
+  padding: 0.625rem 1rem;
+
 }
 
 .accordionItemFluent-panel {
