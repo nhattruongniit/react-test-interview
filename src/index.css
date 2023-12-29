@@ -13,6 +13,9 @@ code {
     monospace;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
 
 
 .test03_content {

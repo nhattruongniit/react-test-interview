@@ -1,11 +1,10 @@
 {
-  "name": "react-test-optimize",
+  "name": "react-test-interview",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"

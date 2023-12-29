@@ -7,12 +7,12 @@ const cards = Array.from(Array(10).keys()).map(item => ({
   lead: `Some quick example text to build on the card title and make up the bulk of the card's content.`
 }))
 
-function Test03() {
+function InfiniteScroll() {
    // code something here ...
    
   return (
     <div>
-      <h2>Test03: Infinite scroll with FE</h2>
+      <h2>Infinite scroll</h2>
 
       <div className='test03_content'>
         {cards.map(item => (
@@ -38,4 +38,4 @@ function Test03() {
   )
 }
 
-export default Test03
+export default InfiniteScroll

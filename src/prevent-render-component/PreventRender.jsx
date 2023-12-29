@@ -5,7 +5,7 @@ import Title from "./components/Title";
 import Count from "./components/Count";
 import Button from "./components/Button";
 
-export default function Test01() {
+export default function PreventRender() {
   const [age, setAge] = useState(1);
   const [salary, setSalary] = useState(1000);
 
