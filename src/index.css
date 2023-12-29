@@ -14,16 +14,17 @@ code {
 }
 
 
+
 .test03_content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-top: 40px;
-
+  padding:0 10px 0 20px;
 }
 
 .card {
   margin-bottom: 12px;
+  margin: 5px;
 }
 
 
@@ -46,6 +47,7 @@ code {
   color: #161616;
   cursor: pointer;
   border-bottom: 1px solid #e0e0e0;
+  background-color: #f0f0f0;
 }
 
 .accordionItemFluent-header h3 {
@@ -56,6 +58,7 @@ code {
   z-index: 1;
   width: 100%;
   text-align: left;
+  margin: 0;
 }
 
 .accordionItemFluent-panel {

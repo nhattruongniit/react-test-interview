@@ -2,7 +2,7 @@
 import React from 'react'
 import ImgBlank from '../assets/images/img-blank.svg';
 
-const cards = Array.from(Array(100).keys()).map(item => ({
+const cards = Array.from(Array(10).keys()).map(item => ({
   title: `Card title ${item + 1}`,
   lead: `Some quick example text to build on the card title and make up the bulk of the card's content.`
 }))
