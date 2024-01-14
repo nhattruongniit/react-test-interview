@@ -3,10 +3,8 @@ import { Tabs } from 'antd';
 
 import PreventRender from "./prevent-render-component/PreventRender";
 import SkipFirstRender from "./skip-first-render/SkipFirstRender";
-import InfiniteScroll from "./infinite-scroll/InfiniteScroll";
 import Accordion from "./Accordion/Accordion";
 import ImperativeHandle from "./imperative-handle/ImperativeHandle";
-
 
 export default function App() {
   return (
@@ -25,9 +23,6 @@ export default function App() {
         </Tabs.TabPane>
         <Tabs.TabPane tab="imperativeHandle" key="4">
           <ImperativeHandle />
-        </Tabs.TabPane>
-        <Tabs.TabPane tab="Infinite Scroll" key="5">
-          <InfiniteScroll />
         </Tabs.TabPane>
       </Tabs>
 
