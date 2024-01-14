@@ -3,7 +3,6 @@ import { Tabs } from 'antd';
 
 import PreventRender from "./prevent-render-component/PreventRender";
 import SkipFirstRender from "./skip-first-render/SkipFirstRender";
-import Accordion from "./Accordion/Accordion";
 import ImperativeHandle from "./imperative-handle/ImperativeHandle";
 
 export default function App() {
@@ -17,9 +16,6 @@ export default function App() {
         </Tabs.TabPane>
         <Tabs.TabPane tab="Skip Frist Render" key="2">
           <SkipFirstRender />
-        </Tabs.TabPane>
-        <Tabs.TabPane tab="Accordion" key="3">
-          <Accordion />
         </Tabs.TabPane>
         <Tabs.TabPane tab="imperativeHandle" key="4">
           <ImperativeHandle />
